@@ -1,5 +1,5 @@
 
-$Id: README-nsexample.txt,v 1.2 2003/11/01 12:12:48 vasiljevic Exp $
+$Id: README-nsexample.txt,v 1.3 2003/11/01 12:18:28 vasiljevic Exp $
 
 Example AOLserver Module
 ------------------------
@@ -10,9 +10,9 @@ AOLserver module.  Here they are in a nutshell:
   1) Each module has a README file.  The file can be named
      README-modulename.txt or readme.txt (the first form is preferred).
 
-  2) Each file has an entry called "$Id: README-nsexample.txt,v 1.2 2003/11/01 12:12:48 vasiljevic Exp $" near the top of the
-     document.  This includes html, adp, tcl, java, c, as well
-     as any plain text file.
+  2) Each file has an entry called "(DollarSign)Id(DollarSign)" near the
+     top of the document. This includes html, adp, tcl, java, C, as well
+     as any plain text file. 
 
   3) The Makefile follows the format of the nsexample Makefile in this
      directory.
